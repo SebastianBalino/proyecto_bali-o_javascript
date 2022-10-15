@@ -1,0 +1,74 @@
+[
+    { 
+        "precio": 7000,
+        "id": 1,
+        "title": "Camiseta Selección Argentina 95 Home",       
+        "thumbnailUrl": "./imagenes/argentina-95-home.jpg"
+    },
+    { 
+        "precio": 7500,
+        "id": 2,
+        "title": "Camiseta Selección Brasil 94 Home",       
+        "thumbnailUrl": "./imagenes/brazil-94-home.jpg"
+    },
+    { 
+        "precio": 5800,
+        "id": 3,
+        "title": "Camiseta Selección España 95 Home",       
+        "thumbnailUrl": "./imagenes/spain-94-home.jpg"
+    },
+    { 
+        "precio": 7200,
+        "id": 4,
+        "title": "Camiseta Selección Colombia 95 Home",       
+        "thumbnailUrl": "./imagenes/colombia-95-home.jpg"
+    },
+    { 
+        "precio": 7000,
+        "id": 5,
+        "title": "Camiseta Milan 2008 Home",       
+        "thumbnailUrl": "./imagenes/ac-milan-08-home.jpg"
+    },
+    { 
+        "precio": 7000,
+        "id": 6,
+        "title": "Camiseta Inter 2005 Home",       
+        "thumbnailUrl": "./imagenes/inter-05-home.jpg"
+    },
+    { 
+        "precio": 8000,
+        "id": 7,
+        "title": "Camiseta Real Madrid 1998 Home",       
+        "thumbnailUrl": "./imagenes/real-madrid-98-home.jpg"
+    },
+    { 
+        "precio": 7000,
+        "id": 8,
+        "title": "Camiseta River Plate 96 Home",       
+        "thumbnailUrl": "./imagenes/river-plate-96-home.jpg"
+    },
+    { 
+        "precio": 6000,
+        "id": 9,
+        "title": "Camiseta Manchester United 04 Home",       
+        "thumbnailUrl": "./imagenes/man-united-04-home.jpg"
+    },
+    { 
+        "precio": 6500,
+        "id": 10,
+        "title": "Camiseta Arsenal FC 06 Away",       
+        "thumbnailUrl": "./imagenes/arsenal-06-away.jpg"
+    },
+    { 
+        "precio": 6000,
+        "id": 11,
+        "title": "Camiseta Barcelona 07 Home",       
+        "thumbnailUrl": "./imagenes/barcelona-07-home.jpg"
+    },
+    { 
+        "precio": 6000,
+        "id": 12,
+        "title": "Camiseta Seleccion Argentina 06 Away",       
+        "thumbnailUrl": "./imagenes/argentina-06-away.jpg"
+    }
+]

@@ -1,41 +1,60 @@
-body{
-    background-color: #2e1ca7ea;
+body {
+    
+    font-family: 'Titillium Web'; 
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='2000' preserveAspectRatio='none' viewBox='0 0 1400 2000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2570%26quot%3b)' fill='none'%3e%3crect width='1400' height='2000' x='0' y='0' fill='url(%23SvgjsLinearGradient2571)'%3e%3c/rect%3e%3cpath d='M0 0L0.99 0L0 902.41z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 902.41L0.99 0L471.26 0L0 1158.49z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 1158.49L471.26 0L743.37 0L0 1209.8700000000001z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 1209.8700000000001L743.37 0L1173.54 0L0 1683.0400000000002z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1400 2000L986.24 2000L1400 1089.78z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1400 1089.78L986.24 2000L700.28 2000L1400 1051.09z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1400 1051.09L700.28 2000L384.21 2000L1400 929.9599999999999z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1400 929.96L384.21000000000004 2000L299.24 2000L1400 429.8z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2570'%3e%3crect width='1400' height='2000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-10.71%25' y1='92.5%25' x2='110.71%25' y2='7.5%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2571'%3e%3cstop stop-color='rgba(74%2c 167%2c 45%2c 1)' offset='0.18'%3e%3c/stop%3e%3cstop stop-color='rgba(17%2c 195%2c 23%2c 1)' offset='0.99'%3e%3c/stop%3e%3cstop stop-color='rgba(44%2c 167%2c 65%2c 1)' offset='1'%3e%3c/stop%3e%3cstop stop-color='rgba(25%2c 170%2c 35%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
-header, .alert{
-    z-index: 100;
+
+.container-fluid {
+    display: flex
 }
-.description{
-    height: 25px;
-    overflow: hidden;
-    transition: height .3s ease-in .3s;
+
+.nav {
+    justify-content: space-between;
+    padding-top: 40px !important;
 }
-.description:hover{
-    height: 80px;
-}
-.carrito{
-    min-height: 80vh;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
-}
-.table__entradas{
+
+
+header {
+    position: sticky;
+    z-index: 999;
     display: flex;
 }
-.table__entradas > img {  
-    width: 6rem; 
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
+
+.productos {
+    margin-top: 20px;
 }
-.table__cantidad > input{
-    width: 40px;
-    border: none;
-    outline: 0;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 30px;
+.productos h1 {
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
 }
-.hide, .remove{
-    display: none;
+.productos h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgb(14, 68, 19);
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.742);
+    text-align: center;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#pills-profile-tab {
+    background-color: rgb(46, 159, 46);
+}
+#pills-contact-tab {
+    color:  rgb(46, 159, 46);
 }
